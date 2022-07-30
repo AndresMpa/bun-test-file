@@ -1,0 +1,5 @@
+services:
+  bun:
+    build: .
+    container_name: bun
+    command: tail -F /dev/null
