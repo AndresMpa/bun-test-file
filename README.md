@@ -4,7 +4,9 @@ This is a bun simple test file using Docker, just run
 docker-compose up -d
 
 docker-compose exec bun /bin/bash
-
+```
+Then inside the container simple run
+```
 source ./install_helper.sh
 ```
 
